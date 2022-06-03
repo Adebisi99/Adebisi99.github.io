@@ -1,0 +1,540 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+body {
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn-primary {
+    padding: 12px 28px;
+    background-color: #138241;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+
+.btn-secondary {
+    padding: 12px 28px;
+    background-color: transparent;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: #138241;
+}
+input {
+    padding: 12px 28px;
+    border: none;
+}
+button {
+    border: none;
+}
+.container {
+    width: 80vw;
+    margin: auto;
+}
+
+ .pb {
+    padding-bottom: 5rem;
+ }
+ .pt {
+    padding-top: 5rem;
+ }
+ .__pb {
+    padding-bottom: 40px;
+ }
+.section-title {
+    text-align: center;
+}
+.title {
+    text-align: left;
+    padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/******************************token*************************/
+.token {
+    
+    background-color: #F6F8FA;
+}
+
+.__token-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+.token p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+/******************************introduce*************************/
+
+.introduce {
+    background-color: #F6F8FA;
+}
+.introduce .title {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.introduce .service {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+.introduce .service h3 {
+    padding: 1rem 0;
+}
+
+
+
+.introduce article {
+    border: 2px solid #C4C4C4;
+    border-radius: 6px;
+    padding: 2rem 2rem 1rem;
+    line-height: 1.6;
+    background-color: #F6F8FA;
+    height: fit-content;
+}
+.introduce article p {
+    padding: 0 0 1rem 0;
+    color:rgba(4, 36, 17, 0.8);
+}
+.introduce article a {
+    color: #F7941D;
+
+}
+
+.introduce .social img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .utility-form img {
+    background-color: #138241;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .investment img {
+    background-color: white;
+    padding: .7rem;
+    border-radius: 4px;
+}
+.introduce .investment {
+    background-color: #138241;
+
+}
+.introduce .investment p {
+    color: #C5EDCE;
+
+}
+
+.introduce .investment h3 {
+    color: white;
+}
+.introduce .investment a {
+    color: #C5EDCE;
+
+}
+
+
+
+/******************************contract*************************/
+
+.contract {
+    background-color: #F6F8FA;
+}
+.contract-details {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    align-items: flex-end; 
+    line-height: 1.8;
+    border-bottom: 1px solid #DBDBDB;
+    padding-top: 10px;
+}
+
+.contract-details h3 {
+    border-bottom: 3px solid #138241;
+    width: 80%;
+}
+.contract-details p {
+    padding-left: 50px;
+}
+.contract button {
+    border: none;
+    background-color: rgba(101, 236, 101, 0.8);
+    padding: 5px;
+}
+
+/******************************tokenomics*************************/
+.tokenomics {
+    background-color: #F6F8FA;
+}
+.tokenomics-grid {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 1.8;
+}
+.tokenomics-grid ul {
+    display: flex;
+    gap: 10px;
+    width: fit-content;
+    padding: 7px;
+    align-items: flex-end;
+    
+}
+.tokenomics-grid ul li {
+    list-style-type: square;
+}
+
+.tokenomics-right {
+    text-align: center;
+}
+.tokenomics-right img {
+    max-width: 150px;
+}
+
+
+/******************************pre-sale*************************/
+.banner {
+    background-color: orange;
+    padding: 5rem 0 5rem 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+
+.banner .btn-primary {
+    padding: 12px 28px;
+    background-color: white;
+    border-radius: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: orange;
+}
+.price div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: baseline;
+    padding: 5px 0;
+    
+}
+
+
+/******************************airdrop*************************/
+
+.airdrop {
+    background-color: #138241;
+    
+}
+
+#airdrop-form {
+    display: flex;
+    justify-content: center;
+   
+}
+
+#airdrop-form #pesa-address {
+    border: 1px transparent white;
+    border-radius: 20px 0 0 20px;
+    margin-right: 5px;
+    padding-right: 20rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    
+}
+#airdrop-form #air-btn {
+    border-radius: 0 20px 20px 0;
+    padding: 1rem 1rem;
+    background-color: #0a4924;
+    color: rgb(230, 227, 227);
+}
+
+
+
+/******************************roadmap*************************/
+.roadmap {
+    background-color: #F6F8FA;
+}
+
+.top,.bottom {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: fit-content;
+    gap: 70px;
+    margin: auto;
+}
+.phase {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    line-height: 1.8;
+    background-color: #13824133;
+    padding: 40px 30px 40px 50px;
+    border-radius: 24px;
+    
+}
+
+
+.phase li span {
+    color: black;
+}
+
+.phase img {
+    width: 125px;
+    
+}
+.phase li {
+    list-style-type: square;
+}
+.phase1 h3 {
+    color: #138241;
+}
+.phase1 li {
+    color: #138241;
+}
+.phase2 h3 {
+    color: #2872D3;
+}
+.phase2 li {
+    color: #2872D3;
+}
+.phase3 h3 {
+    color: #F4726D;
+}
+.phase3 li {
+    color: #F4726D;
+}
+.phase4 h3 {
+    color: #5739A4;
+}
+.phase4 li {
+    color: #5739A4;
+}
+.phase .left {
+    text-align: left;
+}
+
+
+/******************************Footer*************************/
+footer {
+    background-color: #138241;
+}
+
+
+.__footer-container form {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #138241;
+    background-color: #fff;
+    border-radius: 0;
+    width: 65vw;
+    padding: 5px;
+    margin: 40px auto;
+}
+.__footer-container form input {
+    line-height: 1.6;
+    padding:0 10rem 0 5rem;
+    font-size: 16px;
+    background-color: #fff;
+    
+}
+.__footer-container form input:active {
+    background-color: #fff;
+}
+.btn {
+    padding: 12px 40px;
+    background-color: #138241;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+}
+ 
+
+.footer-nav.footer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 70vw;
+    margin: 0 auto 15px;
+}
+.footer-nav a {
+    display: block;
+    line-height: 1.6;
+    color: #FFFFFFCC;
+
+}
+.footer-nav h3 {
+    color: white;
+    padding-bottom: 7px;
+}
+.__pt {
+    padding-top: 15px;
+}
+.copy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+}
+
+
+/*******************************media Query*****************/
+
+@media (max-width:760px) {
+    /******************************introduce*************************/
+
+    .introduce .service {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .contract-details {
+        line-height: normal;
+    }
+
+    /******************************contract*************************/
+
+    .contract {
+        background-color: #F6F8FA;
+    }
+    .contract-details {
+        width: 80vw;
+    }
+    .contract-details p {
+        padding-left: 20px;
+    }
+    /******************************tokenomics*************************/
+    .tokenomics-grid {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .tokenomics-grid img {
+        max-width: 100px;
+    }
+    .tokenomics-grid ul {
+        display: flex;
+        justify-content: flex-start;
+        align-items: baseline;
+        gap: 15px;
+        padding-top: 10px;
+    }
+    /******************************airdrop*************************/
+    #airdrop-form #pesa-address {
+        padding-right: 8rem;     
+    }
+    /******************************roadmap*************************/
+    .roadmap {
+        background-color: #F6F8FA;
+    }
+
+    .top,.bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 50px;
+        padding: 0;
+        padding-bottom: 0;
+    }
+    .bottom {
+        padding-top: 0;
+    }
+    .phase {
+        justify-content: flex-start;
+    }
+    .coin {
+        display: none;
+    }
+    /******************************Footer*************************/
+    .__footer-container form {
+        display: flex;
+        justify-content: space-between;
+        width: 70vw;
+    }
+    .__footer-container form input#email {
+        padding-left: 10px;
+        width: 35vw;
+        
+    }
+    .btn {
+        padding: 12px 22px;
+    }
+    
+    .__footer-container form input {
+        padding: 12px 28px;
+        border: none;
+    }
+
+
+    .footer-nav.footer {
+        display: block;
+        text-align: center;
+        line-height: 1.8;
+    }
+
+
+    .__roadmap-container {
+        width: fit-content;
+    }
+
+
+}
+
+
+@media (max-width:960px) {
+    .__roadmap-container {
+        width: fit-content;
+    }
+    .phase {
+        gap: 10px;
+    } 
+    .top,.bottom {
+        gap: 20px;
+    }
+    .__footer-container {
+        width: fit-content;
+    }
+    .__footer-container form input {
+        padding: 0 4rem 0 3rem;
+    }
+    .__tokenomics-container {
+        width: 80vw;
+    }
+    .__air-container {
+        width: 70vw;
+    }
+}
