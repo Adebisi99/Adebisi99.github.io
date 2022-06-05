@@ -10,35 +10,36 @@ body {
    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .btn-primary {
-    padding: 12px 28px;
+    padding: 0.75em 1.75em;
     background-color: #138241;
     border-radius: 8px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.6;
     color: white;
 }
 
 .btn-secondary {
-    padding: 12px 28px;
+    padding: 0.75em 1.75em;
     background-color: transparent;
     border-radius: 8px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.6;
     color: #138241;
 }
 input {
-    padding: 12px 28px;
+    padding: 0.75em 1.75em;
     border: none;
 }
 button {
     border: none;
 }
 .container {
-    width: 80vw;
+    max-width: 1000px;
+    width: 90%;
     margin: auto;
 }
 
@@ -49,14 +50,14 @@ button {
     padding-top: 5rem;
  }
  .__pb {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
  }
 .section-title {
     text-align: center;
 }
 .title {
     text-align: left;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 h2 {
@@ -72,7 +73,7 @@ h2 {
 .__token-container {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
 }
 
 
@@ -92,17 +93,17 @@ h2 {
 }
 .introduce .title {
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
 }
 
 .introduce .service {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 .introduce .service h3 {
-    padding: 1rem 0;
+    padding: 16px 0;
 }
 
 
@@ -169,20 +170,21 @@ h2 {
     align-items: flex-end; 
     line-height: 1.8;
     border-bottom: 1px solid #DBDBDB;
-    padding-top: 10px;
+    padding-top: 0.625rem;
 }
 
 .contract-details h3 {
     border-bottom: 3px solid #138241;
     width: 80%;
+    min-width: 80%;
 }
 .contract-details p {
-    padding-left: 50px;
+    padding-left: 2.5rem;
 }
 .contract button {
     border: none;
     background-color: rgba(101, 236, 101, 0.8);
-    padding: 5px;
+    padding: 0.13rem;
 }
 
 /******************************tokenomics*************************/
@@ -212,7 +214,8 @@ h2 {
     text-align: center;
 }
 .tokenomics-right img {
-    max-width: 150px;
+    max-width: 800px;
+    width: 70%;
 }
 
 
@@ -226,22 +229,22 @@ h2 {
 
 
 .banner .btn-primary {
-    padding: 12px 28px;
+    padding: 0.75em 1.75em;
     background-color: white;
     border-radius: 8px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.6;
     color: orange;
 }
 .price div{
     text-align: center;
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
     align-items: baseline;
-    padding: 5px 0;
+    padding: 0.3em 0;
     
 }
 
@@ -256,20 +259,20 @@ h2 {
 #airdrop-form {
     display: flex;
     justify-content: center;
-   
+      
 }
 
 #airdrop-form #pesa-address {
     border: 1px transparent white;
     border-radius: 20px 0 0 20px;
-    margin-right: 5px;
-    padding-right: 20rem;
+    margin-right: 0.3em;
+    padding-right: 20em;
     background-color: rgba(255, 255, 255, 0.7);
     
 }
 #airdrop-form #air-btn {
     border-radius: 0 20px 20px 0;
-    padding: 1rem 1rem;
+    padding: 1em 1em;
     background-color: #0a4924;
     color: rgb(230, 227, 227);
 }
@@ -285,18 +288,19 @@ h2 {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
-    width: fit-content;
-    gap: 70px;
+    min-width: fit-content;
+    width: ;
+    gap: 0rem;
     margin: auto;
 }
 .phase {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 50px;
+    gap: 2.5em;
     line-height: 1.8;
     background-color: #13824133;
-    padding: 40px 30px 40px 50px;
+    padding: 2.5em 1.875em 2.5em 3.125em;
     border-radius: 24px;
     
 }
@@ -354,13 +358,13 @@ footer {
     border: 1px solid #138241;
     background-color: #fff;
     border-radius: 0;
-    width: 65vw;
-    padding: 5px;
-    margin: 40px auto;
+    width: 80%;
+    padding: 0.3em;
+    margin: 2.5em auto;
 }
 .__footer-container form input {
     line-height: 1.6;
-    padding:0 10rem 0 5rem;
+    padding:0 10em 0 5em;
     font-size: 16px;
     background-color: #fff;
     
@@ -369,12 +373,12 @@ footer {
     background-color: #fff;
 }
 .btn {
-    padding: 12px 40px;
+    padding: 0.75em 2.5em;
     background-color: #138241;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 1.6;
     color: white;
 }
  
@@ -384,9 +388,9 @@ footer {
     grid-template-columns: repeat(5, 1fr);
     justify-items: center;
     align-items: flex-start;
-    gap: 20px;
-    width: 70vw;
-    margin: 0 auto 15px;
+    gap: 1.25rem;
+    max-width: 70vw;
+    margin: 0 auto 0.9375em;
 }
 .footer-nav a {
     display: block;
@@ -411,130 +415,95 @@ footer {
 
 
 /*******************************media Query*****************/
-
-@media (max-width:760px) {
-    /******************************introduce*************************/
-
-    .introduce .service {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-        align-items: center;
-    }
-
-    .contract-details {
-        line-height: normal;
-    }
-
-    /******************************contract*************************/
-
-    .contract {
-        background-color: #F6F8FA;
-    }
-    .contract-details {
-        width: 80vw;
-    }
-    .contract-details p {
-        padding-left: 20px;
-    }
-    /******************************tokenomics*************************/
-    .tokenomics-grid {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-    }
-    .tokenomics-grid img {
-        max-width: 100px;
-    }
-    .tokenomics-grid ul {
-        display: flex;
-        justify-content: flex-start;
-        align-items: baseline;
-        gap: 15px;
-        padding-top: 10px;
-    }
-    /******************************airdrop*************************/
-    #airdrop-form #pesa-address {
-        padding-right: 8rem;     
-    }
-    /******************************roadmap*************************/
-    .roadmap {
-        background-color: #F6F8FA;
-    }
-
-    .top,.bottom {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        gap: 50px;
-        padding: 0;
-        padding-bottom: 0;
-    }
-    .bottom {
-        padding-top: 0;
-    }
-    .phase {
-        justify-content: flex-start;
+@media (max-width: 880px) {
+    .top, .bottom {
+        gap: 1.5rem;
     }
     .coin {
         display: none;
     }
-    /******************************Footer*************************/
-    .__footer-container form {
-        display: flex;
-        justify-content: space-between;
-        width: 70vw;
+    .phase {
+        gap: 1.5em;
+        width: max-content;
     }
-    .__footer-container form input#email {
-        padding-left: 10px;
-        width: 35vw;
-        
+    .__footer-container form input {
+        padding: 0 0 0 2rem;
     }
-    .btn {
-        padding: 12px 22px;
+}
+@media (max-width: 760px) {
+    .top, .bottom {
+        display: grid;
+    }
+    .bottom {
+        padding-top: 0;
     }
     
-    .__footer-container form input {
-        padding: 12px 28px;
-        border: none;
+    .introduce .service {
+        display: flex;
+        flex-direction: column;
     }
-
-
-    .footer-nav.footer {
-        display: block;
-        text-align: center;
-        line-height: 1.8;
-    }
-
-
-    .__roadmap-container {
-        width: fit-content;
-    }
-
-
 }
 
-
-@media (max-width:960px) {
-    .__roadmap-container {
-        width: fit-content;
-    }
-    .phase {
-        gap: 10px;
-    } 
-    .top,.bottom {
-        gap: 20px;
-    }
-    .__footer-container {
-        width: fit-content;
+@media (max-width: 558px) {
+    .__footer-container form, #airdrop-form {
+        display: block;
+        text-align: center;
+        background: none;
+        border: none;
+        border-radius: 0;
+        width: 80%;
+        padding: 0;
+        margin: 1.78rem auto;
     }
     .__footer-container form input {
-        padding: 0 4rem 0 3rem;
+        padding: 0.5em 0;
+        text-align: center;
+        font-size: 16px;
+        background-color: #fff;
+        width: 100%;
+        margin-bottom: 5px;
+        
+        
     }
-    .__tokenomics-container {
-        width: 80vw;
+    #airdrop-form #pesa-address {
+        border: 1px transparent white;
+        border-radius: 20px;
+        margin-right: 0;
+        width: 100%;
+        padding-right: 0;
+        text-align: center;
+        margin-bottom: 5px;
     }
-    .__air-container {
-        width: 70vw;
+    #airdrop-form #air-btn {
+        border: 1px transparent white;
+        border-radius: 20px;
+        margin-right: 0;
+        width: 100%;
+        padding: 0.9em 2.5em;
     }
+    
+    .btn {
+        padding: 0.3em 2.5em;
+        width: 100%;
+        border: 1px solid rgb(170, 169, 169);
+    }
+    
+}
+@media (max-width: 480px) {
+    .tokenomics-right img {
+        display: none;
+    }
+    .tokenomics-grid {
+        display: block;
+
+    }
+    .price div {
+        display: block;
+    }
+    .footer-nav.footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+   
 }
